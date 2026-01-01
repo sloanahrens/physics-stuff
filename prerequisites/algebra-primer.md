@@ -26,7 +26,7 @@ For real numbers $a$, $b$, $c$:
 | Associative | $(a + b) + c = a + (b + c)$ | $(ab)c = a(bc)$ |
 | Identity | $a + 0 = a$ | $a \cdot 1 = a$ |
 | Inverse | $a + (-a) = 0$ | $a \cdot \frac{1}{a} = 1$ (if $a \neq 0$) |
-| Distributive | \multicolumn{2}{c|}{$a(b + c) = ab + ac$} |
+| Distributive | $a(b + c) = ab + ac$ | $a(b + c) = ab + ac$ |
 
 **What this means:** These properties let you rearrange and simplify expressions freely. They're so fundamental you use them without thinking.
 

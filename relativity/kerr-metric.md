@@ -31,10 +31,10 @@ Here $M$ is the mass and $a = J/M$ is the spin parameter (angular momentum per u
 | Parameter | Definition | Range |
 |-----------|------------|-------|
 | $M$ | Mass of the black hole | $M > 0$ |
-| $a$ | Spin parameter $J/M$ | $0 \leq \|a\| \leq M$ |
+| $a$ | Spin parameter $J/M$ | $0 \leq |a| \leq M$ |
 | $J$ | Angular momentum | $J = Ma$ |
 
-The dimensionless spin is often written as $a_* = a/M$, with $\|a_*\| \leq 1$ for black holes.
+The dimensionless spin is often written as $a_* = a/M$, with $|a_*| \leq 1$ for black holes.
 
 ## Key Surfaces
 
