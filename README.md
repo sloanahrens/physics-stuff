@@ -1,6 +1,6 @@
 # Physics Stuff
 
-Mathematical physics notes with LaTeX. 52 interlinked documents covering mathematical foundations through advanced topics.
+Mathematical physics notes with LaTeX. 55 interlinked documents covering mathematical foundations through advanced topics.
 
 ## Documents
 
@@ -33,6 +33,7 @@ Mathematical physics notes with LaTeX. 52 interlinked documents covering mathema
 | [Lagrangian Mechanics](classical-mechanics/lagrangian-mechanics.md) | Action principle, Euler-Lagrange, Noether |
 | [Hamiltonian Mechanics](classical-mechanics/hamiltonian-mechanics.md) | Phase space, Poisson brackets |
 | [Path Integrals](classical-mechanics/path-integrals.md) | Feynman formulation |
+| [Chaos & Nonlinear Dynamics](classical-mechanics/chaos-nonlinear.md) | Strange attractors, Lyapunov exponents, KAM theorem |
 
 ### Relativity
 | Document | Topic |
@@ -70,6 +71,7 @@ Mathematical physics notes with LaTeX. 52 interlinked documents covering mathema
 | [Perturbation Theory](quantum-mechanics/perturbation-theory.md) | Time-independent/dependent, Fermi's golden rule, WKB |
 | [Scattering Theory](quantum-mechanics/scattering-theory.md) | Partial waves, phase shifts, Born approximation |
 | [QFT Introduction](quantum-mechanics/qft-introduction.md) | Second quantization, Feynman diagrams, Standard Model |
+| [Quantum Information](quantum-mechanics/quantum-information.md) | Qubits, entanglement, Bell inequalities, quantum computing |
 
 ### Thermodynamics
 | Document | Topic |
@@ -77,6 +79,7 @@ Mathematical physics notes with LaTeX. 52 interlinked documents covering mathema
 | [Thermodynamics](thermodynamics/thermodynamics.md) | Laws of thermodynamics, free energies, heat engines |
 | [Entropy](thermodynamics/entropy.md) | Boltzmann, Gibbs, Shannon entropy, information connection |
 | [Statistical Mechanics](thermodynamics/statistical-mechanics.md) | Ensembles, Fermi-Dirac, Bose-Einstein |
+| [Phase Transitions](thermodynamics/phase-transitions.md) | Critical phenomena, universality, renormalization group |
 
 ### Information Theory
 | Document | Topic |
@@ -149,14 +152,14 @@ Probability ──────────────────────�
 |-------|------|
 | **Quantum** | [Quantum Mechanics](quantum-mechanics/quantum-mechanics.md) → [Spin](quantum-mechanics/spin-angular-momentum.md) → [Hydrogen](quantum-mechanics/hydrogen-atom.md) → [Perturbation Theory](quantum-mechanics/perturbation-theory.md) → [Scattering](quantum-mechanics/scattering-theory.md) → [Dirac](quantum-mechanics/dirac-equation.md) → [QFT](quantum-mechanics/qft-introduction.md) |
 | **Relativity** | [Special Relativity](relativity/special-relativity.md) → [General Relativity](relativity/general-relativity.md) → [Schwarzschild](relativity/schwarzschild-solution.md) → [Geodesics](relativity/geodesics.md) → [Kerr](relativity/kerr-metric.md) |
-| **Classical** | [Newtonian](classical-mechanics/newtonian-mechanics.md) → [Central Forces](classical-mechanics/central-forces.md) → [Lagrangian](classical-mechanics/lagrangian-mechanics.md) → [Hamiltonian](classical-mechanics/hamiltonian-mechanics.md) |
+| **Classical** | [Newtonian](classical-mechanics/newtonian-mechanics.md) → [Central Forces](classical-mechanics/central-forces.md) → [Lagrangian](classical-mechanics/lagrangian-mechanics.md) → [Hamiltonian](classical-mechanics/hamiltonian-mechanics.md) → [Chaos](classical-mechanics/chaos-nonlinear.md) |
 | **EM** | [Electrostatics](electromagnetism/electrostatics.md) → [Magnetostatics](electromagnetism/magnetostatics.md) → [Maxwell's Equations](electromagnetism/maxwell-equations.md) → [EM Waves](electromagnetism/electromagnetic-waves.md) → [Radiation](electromagnetism/radiation.md) |
 | **Math** | [Complex Analysis](math-foundations/complex-analysis.md) → [Fourier Analysis](math-foundations/fourier-analysis.md) → [Special Functions](math-foundations/special-functions.md) → [Green's Functions](math-foundations/greens-functions.md) |
 | **Advanced Math** | [Tensor Calculus](math-foundations/tensor-calculus.md) → [Differential Forms](math-foundations/differential-forms.md) → [Lie Groups](math-foundations/lie-groups.md) |
-| **Thermo** | [Thermodynamics](thermodynamics/thermodynamics.md) → [Entropy](thermodynamics/entropy.md) → [Statistical Mechanics](thermodynamics/statistical-mechanics.md) |
+| **Thermo** | [Thermodynamics](thermodynamics/thermodynamics.md) → [Entropy](thermodynamics/entropy.md) → [Statistical Mechanics](thermodynamics/statistical-mechanics.md) → [Phase Transitions](thermodynamics/phase-transitions.md) |
 | **Information** | [Information Theory](information-theory/information-theory.md) → [Data Compression](information-theory/data-compression.md) ↔ [Entropy](thermodynamics/entropy.md) |
 
-**Advanced topics:** [Gravitational Waves](relativity/gravitational-waves.md), [Black Hole Thermodynamics](relativity/black-hole-thermodynamics.md), [Friedmann Equations](relativity/friedmann-equations.md), [Statistical Mechanics](thermodynamics/statistical-mechanics.md)
+**Advanced topics:** [Gravitational Waves](relativity/gravitational-waves.md), [Black Hole Thermodynamics](relativity/black-hole-thermodynamics.md), [Friedmann Equations](relativity/friedmann-equations.md), [Quantum Information](quantum-mechanics/quantum-information.md), [Phase Transitions](thermodynamics/phase-transitions.md), [Chaos](classical-mechanics/chaos-nonlinear.md)
 
 ## Rendering
 
