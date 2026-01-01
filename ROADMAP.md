@@ -430,9 +430,9 @@ $$
 | em-in-matter.md | 2 | Complete | Yes |
 | boundary-value-problems.md | 2 | Complete | Yes |
 | radiation.md | 2 | Complete | Yes |
-| perturbation-theory.md | 3 | Not started | Yes |
-| scattering-theory.md | 3 | Not started | Needs perturbation |
-| qft-introduction.md | 3 | Not started | Yes |
+| perturbation-theory.md | 3 | Complete | Yes |
+| scattering-theory.md | 3 | Complete | Yes |
+| qft-introduction.md | 3 | Complete | Yes |
 | quantum-information.md | 4 | Not started | Yes |
 | chaos-nonlinear.md | 4 | Not started | Yes |
 | phase-transitions.md | 4 | Not started | Yes |

@@ -1,6 +1,6 @@
 # Physics Stuff
 
-Mathematical physics notes with LaTeX. 49 interlinked documents covering mathematical foundations through advanced topics.
+Mathematical physics notes with LaTeX. 52 interlinked documents covering mathematical foundations through advanced topics.
 
 ## Documents
 
@@ -67,6 +67,9 @@ Mathematical physics notes with LaTeX. 49 interlinked documents covering mathema
 | [Spin & Angular Momentum](quantum-mechanics/spin-angular-momentum.md) | Pauli matrices, Clebsch-Gordan |
 | [Hydrogen Atom](quantum-mechanics/hydrogen-atom.md) | Exact solution, fine structure |
 | [Dirac Equation](quantum-mechanics/dirac-equation.md) | Relativistic QM, spinors, antimatter |
+| [Perturbation Theory](quantum-mechanics/perturbation-theory.md) | Time-independent/dependent, Fermi's golden rule, WKB |
+| [Scattering Theory](quantum-mechanics/scattering-theory.md) | Partial waves, phase shifts, Born approximation |
+| [QFT Introduction](quantum-mechanics/qft-introduction.md) | Second quantization, Feynman diagrams, Standard Model |
 
 ### Thermodynamics
 | Document | Topic |
@@ -144,7 +147,7 @@ Probability ──────────────────────�
 
 | Track | Path |
 |-------|------|
-| **Quantum** | [Quantum Mechanics](quantum-mechanics/quantum-mechanics.md) → [Spin](quantum-mechanics/spin-angular-momentum.md) → [Hydrogen](quantum-mechanics/hydrogen-atom.md) → [Dirac](quantum-mechanics/dirac-equation.md) |
+| **Quantum** | [Quantum Mechanics](quantum-mechanics/quantum-mechanics.md) → [Spin](quantum-mechanics/spin-angular-momentum.md) → [Hydrogen](quantum-mechanics/hydrogen-atom.md) → [Perturbation Theory](quantum-mechanics/perturbation-theory.md) → [Scattering](quantum-mechanics/scattering-theory.md) → [Dirac](quantum-mechanics/dirac-equation.md) → [QFT](quantum-mechanics/qft-introduction.md) |
 | **Relativity** | [Special Relativity](relativity/special-relativity.md) → [General Relativity](relativity/general-relativity.md) → [Schwarzschild](relativity/schwarzschild-solution.md) → [Geodesics](relativity/geodesics.md) → [Kerr](relativity/kerr-metric.md) |
 | **Classical** | [Newtonian](classical-mechanics/newtonian-mechanics.md) → [Central Forces](classical-mechanics/central-forces.md) → [Lagrangian](classical-mechanics/lagrangian-mechanics.md) → [Hamiltonian](classical-mechanics/hamiltonian-mechanics.md) |
 | **EM** | [Electrostatics](electromagnetism/electrostatics.md) → [Magnetostatics](electromagnetism/magnetostatics.md) → [Maxwell's Equations](electromagnetism/maxwell-equations.md) → [EM Waves](electromagnetism/electromagnetic-waves.md) → [Radiation](electromagnetism/radiation.md) |
