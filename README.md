@@ -1,6 +1,6 @@
 # Physics Stuff
 
-Mathematical physics notes with LaTeX. 34 interlinked documents covering prerequisites through advanced topics.
+Mathematical physics notes with LaTeX. 38 interlinked documents covering prerequisites through advanced topics.
 
 ## Documents
 
@@ -64,7 +64,15 @@ Mathematical physics notes with LaTeX. 34 interlinked documents covering prerequ
 ### Thermodynamics
 | Document | Topic |
 |----------|-------|
+| [Thermodynamics](thermodynamics/thermodynamics.md) | Laws of thermodynamics, free energies, heat engines |
+| [Entropy](thermodynamics/entropy.md) | Boltzmann, Gibbs, Shannon entropy, information connection |
 | [Statistical Mechanics](thermodynamics/statistical-mechanics.md) | Ensembles, Fermi-Dirac, Bose-Einstein |
+
+### Information Theory
+| Document | Topic |
+|----------|-------|
+| [Information Theory](information-theory/information-theory.md) | Shannon entropy, mutual information, channel capacity |
+| [Data Compression](information-theory/data-compression.md) | Huffman, arithmetic coding, entropy limits |
 
 ## Folder Structure
 
@@ -76,7 +84,8 @@ physics-stuff/
 ├── relativity/             # Special, general, black holes, cosmology
 ├── electromagnetism/       # Maxwell equations
 ├── quantum-mechanics/      # QM, spin, atoms, Dirac
-└── thermodynamics/         # Statistical mechanics
+├── thermodynamics/         # Laws, entropy, statistical mechanics
+└── information-theory/     # Shannon entropy, compression
 ```
 
 ## How Documents Connect
@@ -130,6 +139,8 @@ Probability ──────────────────────�
 | **Classical** | [Newtonian](classical-mechanics/newtonian-mechanics.md) → [Central Forces](classical-mechanics/central-forces.md) → [Lagrangian](classical-mechanics/lagrangian-mechanics.md) → [Hamiltonian](classical-mechanics/hamiltonian-mechanics.md) |
 | **EM** | [Electrostatics](electromagnetism/electrostatics.md) → [Maxwell's Equations](electromagnetism/maxwell-equations.md) → [EM Waves](electromagnetism/electromagnetic-waves.md) → [Maxwell Covariant](electromagnetism/maxwell-covariant.md) |
 | **Math** | [Tensor Calculus](math-foundations/tensor-calculus.md) → [Differential Forms](math-foundations/differential-forms.md) → [Lie Groups](math-foundations/lie-groups.md) |
+| **Thermo** | [Thermodynamics](thermodynamics/thermodynamics.md) → [Entropy](thermodynamics/entropy.md) → [Statistical Mechanics](thermodynamics/statistical-mechanics.md) |
+| **Information** | [Information Theory](information-theory/information-theory.md) → [Data Compression](information-theory/data-compression.md) ↔ [Entropy](thermodynamics/entropy.md) |
 
 **Advanced topics:** [Gravitational Waves](relativity/gravitational-waves.md), [Black Hole Thermodynamics](relativity/black-hole-thermodynamics.md), [Friedmann Equations](relativity/friedmann-equations.md), [Statistical Mechanics](thermodynamics/statistical-mechanics.md)
 
