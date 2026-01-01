@@ -10,6 +10,7 @@ Mathematical physics notes with embedded LaTeX.
 | [Kerr Metric](kerr-metric.md) | Rotating black hole spacetime geometry |
 | [Maxwell Covariant](maxwell-covariant.md) | Maxwell's equations in relativistic tensor form |
 | [Natural Units](natural-units.md) | Using and converting $G = c = 1$ units |
+| [Quantum Mechanics](quantum-mechanics.md) | Wave functions, uncertainty, entanglement, many-worlds |
 
 ## LaTeX Rendering
 
