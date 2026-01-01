@@ -7,59 +7,72 @@ Mathematical physics notes with LaTeX. 29 interlinked documents covering prerequ
 ### Prerequisites
 | Document | Topic |
 |----------|-------|
-| [Algebra Primer](algebra-primer.md) | Exponents, logarithms, polynomials, complex numbers |
-| [Trigonometry Primer](trigonometry-primer.md) | Unit circle, identities, Euler's formula |
-| [Calculus Primer](calculus-primer.md) | Derivatives, integrals, partial derivatives, Taylor series |
-| [Vector Calculus](vector-calculus.md) | Gradient, divergence, curl, Laplacian, integral theorems |
-| [Linear Algebra](linear-algebra.md) | Vectors, matrices, eigenvalues, inner products |
-| [Probability & Statistics](probability-statistics.md) | Distributions, expectation values, central limit theorem |
-| [Gaussian Integral](gaussian-integral.md) | The $\int e^{-ax^2}dx$ proof and generalizations |
+| [Algebra Primer](prerequisites/algebra-primer.md) | Exponents, logarithms, polynomials, complex numbers |
+| [Trigonometry Primer](prerequisites/trigonometry-primer.md) | Unit circle, identities, Euler's formula |
+| [Calculus Primer](prerequisites/calculus-primer.md) | Derivatives, integrals, partial derivatives, Taylor series |
+| [Vector Calculus](prerequisites/vector-calculus.md) | Gradient, divergence, curl, Laplacian, integral theorems |
+| [Linear Algebra](prerequisites/linear-algebra.md) | Vectors, matrices, eigenvalues, inner products |
+| [Probability & Statistics](prerequisites/probability-statistics.md) | Distributions, expectation values, central limit theorem |
+| [Gaussian Integral](prerequisites/gaussian-integral.md) | The $\int e^{-ax^2}dx$ proof and generalizations |
 
 ### Mathematical Foundations
 | Document | Topic |
 |----------|-------|
-| [Natural Units](natural-units.md) | Setting $G = c = \hbar = 1$ |
-| [Tensor Calculus](tensor-calculus.md) | Indices, metrics, covariant derivatives |
-| [Differential Forms](differential-forms.md) | Exterior calculus, Stokes' theorem |
-| [Lie Groups](lie-groups.md) | Symmetries, representations, algebras |
+| [Natural Units](math-foundations/natural-units.md) | Setting $G = c = \hbar = 1$ |
+| [Tensor Calculus](math-foundations/tensor-calculus.md) | Indices, metrics, covariant derivatives |
+| [Differential Forms](math-foundations/differential-forms.md) | Exterior calculus, Stokes' theorem |
+| [Lie Groups](math-foundations/lie-groups.md) | Symmetries, representations, algebras |
 
 ### Classical Mechanics
 | Document | Topic |
 |----------|-------|
-| [Harmonic Oscillator](harmonic-oscillator.md) | Classical, quantum, and thermodynamic treatments |
-| [Lagrangian Mechanics](lagrangian-mechanics.md) | Action principle, Euler-Lagrange, Noether |
-| [Hamiltonian Mechanics](hamiltonian-mechanics.md) | Phase space, Poisson brackets |
+| [Harmonic Oscillator](classical-mechanics/harmonic-oscillator.md) | Classical, quantum, and thermodynamic treatments |
+| [Lagrangian Mechanics](classical-mechanics/lagrangian-mechanics.md) | Action principle, Euler-Lagrange, Noether |
+| [Hamiltonian Mechanics](classical-mechanics/hamiltonian-mechanics.md) | Phase space, Poisson brackets |
+| [Path Integrals](classical-mechanics/path-integrals.md) | Feynman formulation |
 
 ### Relativity
 | Document | Topic |
 |----------|-------|
-| [Special Relativity](special-relativity.md) | Lorentz transformations, 4-vectors |
-| [Schwarzschild Solution](schwarzschild-solution.md) | Non-rotating black holes |
-| [Kerr Metric](kerr-metric.md) | Rotating black holes |
-| [Geodesics](geodesics.md) | Orbits, light bending, ISCO |
-| [Gravitational Waves](gravitational-waves.md) | Linearized gravity, LIGO |
-| [Black Hole Thermodynamics](black-hole-thermodynamics.md) | Hawking radiation, entropy |
-| [Friedmann Equations](friedmann-equations.md) | Cosmology, dark energy |
+| [Special Relativity](relativity/special-relativity.md) | Lorentz transformations, 4-vectors |
+| [Schwarzschild Solution](relativity/schwarzschild-solution.md) | Non-rotating black holes |
+| [Kerr Metric](relativity/kerr-metric.md) | Rotating black holes |
+| [Geodesics](relativity/geodesics.md) | Orbits, light bending, ISCO |
+| [Gravitational Waves](relativity/gravitational-waves.md) | Linearized gravity, LIGO |
+| [Black Hole Thermodynamics](relativity/black-hole-thermodynamics.md) | Hawking radiation, entropy |
+| [Friedmann Equations](relativity/friedmann-equations.md) | Cosmology, dark energy |
 
 ### Electromagnetism
 | Document | Topic |
 |----------|-------|
-| [Maxwell Covariant](maxwell-covariant.md) | Relativistic tensor formulation |
+| [Maxwell Covariant](electromagnetism/maxwell-covariant.md) | Relativistic tensor formulation |
 
 ### Quantum Mechanics
 | Document | Topic |
 |----------|-------|
-| [Quantum Mechanics](quantum-mechanics.md) | Wave functions, measurement (extended) |
-| [Quantum Math](quantum-math.md) | Equations only (concise) |
-| [Spin & Angular Momentum](spin-angular-momentum.md) | Pauli matrices, Clebsch-Gordan |
-| [Hydrogen Atom](hydrogen-atom.md) | Exact solution, fine structure |
-| [Dirac Equation](dirac-equation.md) | Relativistic QM, spinors, antimatter |
-| [Path Integrals](path-integrals.md) | Feynman formulation |
+| [Quantum Mechanics](quantum-mechanics/quantum-mechanics.md) | Wave functions, measurement (extended) |
+| [Quantum Math](quantum-mechanics/quantum-math.md) | Equations only (concise) |
+| [Spin & Angular Momentum](quantum-mechanics/spin-angular-momentum.md) | Pauli matrices, Clebsch-Gordan |
+| [Hydrogen Atom](quantum-mechanics/hydrogen-atom.md) | Exact solution, fine structure |
+| [Dirac Equation](quantum-mechanics/dirac-equation.md) | Relativistic QM, spinors, antimatter |
 
 ### Thermodynamics
 | Document | Topic |
 |----------|-------|
-| [Statistical Mechanics](statistical-mechanics.md) | Ensembles, Fermi-Dirac, Bose-Einstein |
+| [Statistical Mechanics](thermodynamics/statistical-mechanics.md) | Ensembles, Fermi-Dirac, Bose-Einstein |
+
+## Folder Structure
+
+```
+math-stuff/
+├── prerequisites/          # Foundational math
+├── math-foundations/       # Advanced mathematical tools
+├── classical-mechanics/    # Lagrangian, Hamiltonian, oscillators
+├── relativity/             # Special, general, black holes, cosmology
+├── electromagnetism/       # Maxwell equations
+├── quantum-mechanics/      # QM, spin, atoms, Dirac
+└── thermodynamics/         # Statistical mechanics
+```
 
 ## How Documents Connect
 
@@ -99,20 +112,20 @@ Probability ──────────────────────�
 ## Reading Order
 
 **New to physics math?** Start with the prerequisites:
-- [Algebra Primer](algebra-primer.md) → [Trigonometry Primer](trigonometry-primer.md) → [Calculus Primer](calculus-primer.md) → [Vector Calculus](vector-calculus.md) for differential equations and field theory
-- [Linear Algebra](linear-algebra.md) for quantum mechanics and tensors
-- [Probability & Statistics](probability-statistics.md) for quantum mechanics and statistical mechanics
+- [Algebra Primer](prerequisites/algebra-primer.md) → [Trigonometry Primer](prerequisites/trigonometry-primer.md) → [Calculus Primer](prerequisites/calculus-primer.md) → [Vector Calculus](prerequisites/vector-calculus.md) for differential equations and field theory
+- [Linear Algebra](prerequisites/linear-algebra.md) for quantum mechanics and tensors
+- [Probability & Statistics](prerequisites/probability-statistics.md) for quantum mechanics and statistical mechanics
 
-**Ready for physics:** Start with [Natural Units](natural-units.md), then choose a track:
+**Ready for physics:** Start with [Natural Units](math-foundations/natural-units.md), then choose a track:
 
 | Track | Path |
 |-------|------|
-| **Quantum** | [Quantum Mechanics](quantum-mechanics.md) → [Spin](spin-angular-momentum.md) → [Hydrogen](hydrogen-atom.md) → [Dirac](dirac-equation.md) |
-| **Relativity** | [Special Relativity](special-relativity.md) → [Schwarzschild](schwarzschild-solution.md) → [Geodesics](geodesics.md) → [Kerr](kerr-metric.md) |
-| **Classical** | [Lagrangian](lagrangian-mechanics.md) → [Hamiltonian](hamiltonian-mechanics.md) → [Path Integrals](path-integrals.md) |
-| **Math** | [Tensor Calculus](tensor-calculus.md) → [Differential Forms](differential-forms.md) → [Lie Groups](lie-groups.md) |
+| **Quantum** | [Quantum Mechanics](quantum-mechanics/quantum-mechanics.md) → [Spin](quantum-mechanics/spin-angular-momentum.md) → [Hydrogen](quantum-mechanics/hydrogen-atom.md) → [Dirac](quantum-mechanics/dirac-equation.md) |
+| **Relativity** | [Special Relativity](relativity/special-relativity.md) → [Schwarzschild](relativity/schwarzschild-solution.md) → [Geodesics](relativity/geodesics.md) → [Kerr](relativity/kerr-metric.md) |
+| **Classical** | [Lagrangian](classical-mechanics/lagrangian-mechanics.md) → [Hamiltonian](classical-mechanics/hamiltonian-mechanics.md) → [Path Integrals](classical-mechanics/path-integrals.md) |
+| **Math** | [Tensor Calculus](math-foundations/tensor-calculus.md) → [Differential Forms](math-foundations/differential-forms.md) → [Lie Groups](math-foundations/lie-groups.md) |
 
-**Advanced topics:** [Gravitational Waves](gravitational-waves.md), [Black Hole Thermodynamics](black-hole-thermodynamics.md), [Friedmann Equations](friedmann-equations.md), [Statistical Mechanics](statistical-mechanics.md)
+**Advanced topics:** [Gravitational Waves](relativity/gravitational-waves.md), [Black Hole Thermodynamics](relativity/black-hole-thermodynamics.md), [Friedmann Equations](relativity/friedmann-equations.md), [Statistical Mechanics](thermodynamics/statistical-mechanics.md)
 
 ## Rendering
 
