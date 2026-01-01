@@ -1,23 +1,20 @@
 # Physics Stuff
 
-Mathematical physics notes with LaTeX. 40 interlinked documents covering prerequisites through advanced topics.
+Mathematical physics notes with LaTeX. 41 interlinked documents covering mathematical foundations through advanced topics.
 
 ## Documents
-
-### Prerequisites
-| Document | Topic |
-|----------|-------|
-| [Algebra Primer](prerequisites/algebra-primer.md) | Exponents, logarithms, polynomials, complex numbers |
-| [Trigonometry Primer](prerequisites/trigonometry-primer.md) | Unit circle, identities, Euler's formula |
-| [Calculus Primer](prerequisites/calculus-primer.md) | Derivatives, integrals, partial derivatives, Taylor series |
-| [Vector Calculus](prerequisites/vector-calculus.md) | Gradient, divergence, curl, Laplacian, integral theorems |
-| [Linear Algebra](prerequisites/linear-algebra.md) | Vectors, matrices, eigenvalues, inner products |
-| [Probability & Statistics](prerequisites/probability-statistics.md) | Distributions, expectation values, central limit theorem |
-| [Gaussian Integral](prerequisites/gaussian-integral.md) | The $\int e^{-ax^2}dx$ proof and generalizations |
 
 ### Mathematical Foundations
 | Document | Topic |
 |----------|-------|
+| [Algebra Primer](math-foundations/algebra-primer.md) | Exponents, logarithms, polynomials, complex numbers |
+| [Trigonometry Primer](math-foundations/trigonometry-primer.md) | Unit circle, identities, inverse functions |
+| [Euler's Formula](math-foundations/euler-formula.md) | $e^{i\theta} = \cos\theta + i\sin\theta$, applications |
+| [Calculus Primer](math-foundations/calculus-primer.md) | Derivatives, integrals, partial derivatives, Taylor series |
+| [Vector Calculus](math-foundations/vector-calculus.md) | Gradient, divergence, curl, Laplacian, integral theorems |
+| [Linear Algebra](math-foundations/linear-algebra.md) | Vectors, matrices, eigenvalues, inner products |
+| [Probability & Statistics](math-foundations/probability-statistics.md) | Distributions, expectation values, central limit theorem |
+| [Gaussian Integral](math-foundations/gaussian-integral.md) | The $\int e^{-ax^2}dx$ proof and generalizations |
 | [Natural Units](math-foundations/natural-units.md) | Setting $G = c = \hbar = 1$ |
 | [Tensor Calculus](math-foundations/tensor-calculus.md) | Indices, metrics, covariant derivatives |
 | [Differential Forms](math-foundations/differential-forms.md) | Exterior calculus, Stokes' theorem |
@@ -80,8 +77,7 @@ Mathematical physics notes with LaTeX. 40 interlinked documents covering prerequ
 
 ```
 physics-stuff/
-├── prerequisites/          # Foundational math
-├── math-foundations/       # Advanced mathematical tools
+├── math-foundations/       # All mathematical prerequisites and tools
 ├── classical-mechanics/    # Lagrangian, Hamiltonian, oscillators
 ├── relativity/             # Special, general, black holes, cosmology
 ├── electromagnetism/       # Maxwell equations
@@ -93,8 +89,12 @@ physics-stuff/
 ## How Documents Connect
 
 ```
-PREREQUISITES                    MATH FOUNDATIONS                    PHYSICS
-─────────────                    ────────────────                    ───────
+MATHEMATICAL FOUNDATIONS                                            PHYSICS
+────────────────────────                                            ───────
+
+Algebra ──► Trigonometry ──► Euler's Formula
+     │            │                │
+     ▼            ▼                ▼
 
 Calculus Primer ──────┬──────► Tensor Calculus ─────┬──────────────► Special Relativity
         │             │              │              │                       │
@@ -127,10 +127,10 @@ Probability ──────────────────────�
 
 ## Reading Order
 
-**New to physics math?** Start with the prerequisites:
-- [Algebra Primer](prerequisites/algebra-primer.md) → [Trigonometry Primer](prerequisites/trigonometry-primer.md) → [Calculus Primer](prerequisites/calculus-primer.md) → [Vector Calculus](prerequisites/vector-calculus.md) for differential equations and field theory
-- [Linear Algebra](prerequisites/linear-algebra.md) for quantum mechanics and tensors
-- [Probability & Statistics](prerequisites/probability-statistics.md) for quantum mechanics and statistical mechanics
+**New to physics math?** Start with the foundations:
+- [Algebra Primer](math-foundations/algebra-primer.md) → [Trigonometry Primer](math-foundations/trigonometry-primer.md) → [Euler's Formula](math-foundations/euler-formula.md) → [Calculus Primer](math-foundations/calculus-primer.md) → [Vector Calculus](math-foundations/vector-calculus.md) for differential equations and field theory
+- [Linear Algebra](math-foundations/linear-algebra.md) for quantum mechanics and tensors
+- [Probability & Statistics](math-foundations/probability-statistics.md) for quantum mechanics and statistical mechanics
 
 **Ready for physics:** Start with [Natural Units](math-foundations/natural-units.md), then choose a track:
 

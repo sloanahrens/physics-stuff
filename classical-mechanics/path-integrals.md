@@ -1,6 +1,6 @@
 # Path Integrals in Quantum Mechanics
 
-The path integral formulation, developed by Richard Feynman, provides an alternative to the Schrödinger equation that makes the connection to classical mechanics transparent. It sums over all possible paths, weighted by the exponential of the action—directly linking [quantum mechanics](../quantum-mechanics/quantum-mechanics.md) to [Lagrangian mechanics](lagrangian-mechanics.md). This approach requires [calculus](../prerequisites/calculus-primer.md) (especially integration) and [probability](../prerequisites/probability-statistics.md) concepts.
+The path integral formulation, developed by Richard Feynman, provides an alternative to the Schrödinger equation that makes the connection to classical mechanics transparent. It sums over all possible paths, weighted by the exponential of the action—directly linking [quantum mechanics](../quantum-mechanics/quantum-mechanics.md) to [Lagrangian mechanics](lagrangian-mechanics.md). This approach requires [calculus](../math-foundations/calculus-primer.md) (especially integration) and [probability](../math-foundations/probability-statistics.md) concepts.
 
 ## The Central Idea
 

@@ -1,6 +1,6 @@
 # Differential Forms
 
-Differential forms provide an elegant, coordinate-independent language for calculus on manifolds. They unify gradient, curl, and divergence into a single operation, and express physical laws like [Maxwell's equations](../electromagnetism/maxwell-covariant.md) in their most natural form. This document builds on [vector calculus](../prerequisites/vector-calculus.md), [linear algebra](../prerequisites/linear-algebra.md), and [tensor calculus](tensor-calculus.md), and connects to the geometric structure of [Lie groups](lie-groups.md).
+Differential forms provide an elegant, coordinate-independent language for calculus on manifolds. They unify gradient, curl, and divergence into a single operation, and express physical laws like [Maxwell's equations](../electromagnetism/maxwell-covariant.md) in their most natural form. This document builds on [vector calculus](vector-calculus.md), [linear algebra](linear-algebra.md), and [tensor calculus](tensor-calculus.md), and connects to the geometric structure of [Lie groups](lie-groups.md).
 
 ## Motivation: What's Wrong with Vectors?
 

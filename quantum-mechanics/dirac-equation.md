@@ -1,6 +1,6 @@
 # The Dirac Equation
 
-The Dirac equation unifies [quantum mechanics](quantum-mechanics.md) and [special relativity](../relativity/special-relativity.md), describing spin-1/2 particles like electrons. It predicted antimatter before its discovery and reveals the deep connection between spin and relativity. This document requires [linear algebra](../prerequisites/linear-algebra.md) (matrices, eigenvalues) and connects to [Lie groups](../math-foundations/lie-groups.md) (spinor representations) and [spin angular momentum](spin-angular-momentum.md).
+The Dirac equation unifies [quantum mechanics](quantum-mechanics.md) and [special relativity](../relativity/special-relativity.md), describing spin-1/2 particles like electrons. It predicted antimatter before its discovery and reveals the deep connection between spin and relativity. This document requires [linear algebra](../math-foundations/linear-algebra.md) (matrices, eigenvalues) and connects to [Lie groups](../math-foundations/lie-groups.md) (spinor representations) and [spin angular momentum](spin-angular-momentum.md).
 
 ## The Problem with Klein-Gordon
 

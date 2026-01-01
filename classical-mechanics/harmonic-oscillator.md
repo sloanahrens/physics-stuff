@@ -4,7 +4,7 @@ $$
 \boxed{\ddot{x} + \omega^2 x = 0}
 $$
 
-The harmonic oscillator equation is arguably the most important equation in physics. It describes springs, pendulums, molecular vibrations, electromagnetic waves, quantum fields, and much more. This document covers its solutions and ubiquitous applications. It requires [calculus](../prerequisites/calculus-primer.md) and connects to [Lagrangian mechanics](lagrangian-mechanics.md), [Hamiltonian mechanics](hamiltonian-mechanics.md), [quantum mechanics](../quantum-mechanics/quantum-mechanics.md), and [statistical mechanics](../thermodynamics/statistical-mechanics.md).
+The harmonic oscillator equation is arguably the most important equation in physics. It describes springs, pendulums, molecular vibrations, electromagnetic waves, quantum fields, and much more. This document covers its solutions and ubiquitous applications. It requires [calculus](../math-foundations/calculus-primer.md) and connects to [Lagrangian mechanics](lagrangian-mechanics.md), [Hamiltonian mechanics](hamiltonian-mechanics.md), [quantum mechanics](../quantum-mechanics/quantum-mechanics.md), and [statistical mechanics](../thermodynamics/statistical-mechanics.md).
 
 ## Why It's Everywhere
 
@@ -272,7 +272,7 @@ where $H_n$ are Hermite polynomials:
 - $H_2(\xi) = 4\xi^2 - 2$
 - $H_3(\xi) = 8\xi^3 - 12\xi$
 
-The Gaussian factor $e^{-m\omega x^2/(2\hbar)}$ is normalized using the [Gaussian integral](../prerequisites/gaussian-integral.md).
+The Gaussian factor $e^{-m\omega x^2/(2\hbar)}$ is normalized using the [Gaussian integral](../math-foundations/gaussian-integral.md).
 
 ### Ladder Operators
 

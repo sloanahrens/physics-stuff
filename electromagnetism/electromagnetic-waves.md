@@ -1,6 +1,6 @@
 # Electromagnetic Waves
 
-Electromagnetic waves are oscillating electric and magnetic fields that propagate through space at the speed of light. They emerge naturally from [Maxwell's equations](maxwell-equations.md) and include light, radio waves, X-rays, and all other forms of electromagnetic radiation. This document uses [vector calculus](../prerequisites/vector-calculus.md) and connects to [special relativity](../relativity/special-relativity.md).
+Electromagnetic waves are oscillating electric and magnetic fields that propagate through space at the speed of light. They emerge naturally from [Maxwell's equations](maxwell-equations.md) and include light, radio waves, X-rays, and all other forms of electromagnetic radiation. This document uses [vector calculus](../math-foundations/vector-calculus.md) and connects to [special relativity](../relativity/special-relativity.md).
 
 ## The Wave Equation
 

@@ -2,7 +2,7 @@
 
 Entropy is perhaps the most profound concept in physics. It connects the microscopic world of atoms to the macroscopic world of heat engines, and bridges physics to information theory. This document explores entropy from multiple perspectives and reveals why Boltzmann's $S = k_B \ln W$ and Shannon's $H = -\sum p_i \log p_i$ are fundamentally the same idea.
 
-Prerequisites: [thermodynamics](thermodynamics.md), [statistical mechanics](statistical-mechanics.md), [probability](../prerequisites/probability-statistics.md). See [information theory](../information-theory/information-theory.md) for the full information-theoretic treatment.
+Prerequisites: [thermodynamics](thermodynamics.md), [statistical mechanics](statistical-mechanics.md), [probability](../math-foundations/probability-statistics.md). See [information theory](../information-theory/information-theory.md) for the full information-theoretic treatment.
 
 ## Historical Development
 

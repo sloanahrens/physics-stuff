@@ -2,7 +2,7 @@
 
 Information theory, founded by Claude Shannon in 1948, provides a mathematical framework for quantifying, storing, and communicating information. It answers fundamental questions: How much can data be compressed? How fast can we communicate reliably over a noisy channel? The theory has deep connections to physics through [entropy](../thermodynamics/entropy.md) and underpins modern communications, cryptography, and machine learning.
 
-Prerequisites: [probability](../prerequisites/probability-statistics.md), [logarithms](../prerequisites/algebra-primer.md).
+Prerequisites: [probability](../math-foundations/probability-statistics.md), [logarithms](../math-foundations/algebra-primer.md).
 
 ## Fundamental Concepts
 

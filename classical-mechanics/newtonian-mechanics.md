@@ -1,6 +1,6 @@
 # Newtonian Mechanics
 
-Newton's laws form the foundation of classical mechanics. They describe how forces cause motion and establish the conservation laws that govern physical systems. This document introduces the concepts that are reformulated in [Lagrangian](lagrangian-mechanics.md) and [Hamiltonian](hamiltonian-mechanics.md) mechanics. Prerequisites: [calculus](../prerequisites/calculus-primer.md) and [vector calculus](../prerequisites/vector-calculus.md).
+Newton's laws form the foundation of classical mechanics. They describe how forces cause motion and establish the conservation laws that govern physical systems. This document introduces the concepts that are reformulated in [Lagrangian](lagrangian-mechanics.md) and [Hamiltonian](hamiltonian-mechanics.md) mechanics. Prerequisites: [calculus](../math-foundations/calculus-primer.md) and [vector calculus](../math-foundations/vector-calculus.md).
 
 ## Newton's Three Laws
 

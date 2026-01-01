@@ -1,6 +1,6 @@
 # The Hydrogen Atom
 
-The hydrogen atom—a single electron bound to a proton—is the cornerstone of atomic physics. It's one of the few exactly solvable systems in [quantum mechanics](quantum-mechanics.md), revealing the quantum numbers that organize the periodic table. The solution requires [vector calculus](../prerequisites/vector-calculus.md) in spherical coordinates, [linear algebra](../prerequisites/linear-algebra.md), and [probability](../prerequisites/probability-statistics.md) for interpreting wave functions. This document uses [spin and angular momentum](spin-angular-momentum.md) and connects to the [Dirac equation](dirac-equation.md) for relativistic corrections.
+The hydrogen atom—a single electron bound to a proton—is the cornerstone of atomic physics. It's one of the few exactly solvable systems in [quantum mechanics](quantum-mechanics.md), revealing the quantum numbers that organize the periodic table. The solution requires [vector calculus](../math-foundations/vector-calculus.md) in spherical coordinates, [linear algebra](../math-foundations/linear-algebra.md), and [probability](../math-foundations/probability-statistics.md) for interpreting wave functions. This document uses [spin and angular momentum](spin-angular-momentum.md) and connects to the [Dirac equation](dirac-equation.md) for relativistic corrections.
 
 ## The Physical Setup
 

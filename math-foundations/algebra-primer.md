@@ -274,7 +274,7 @@ $$
 \boxed{e^{i\theta} = \cos\theta + i\sin\theta}
 $$
 
-This connects exponentials to [trigonometry](trigonometry-primer.md).
+This connects exponentials to [trigonometry](trigonometry-primer.md). See [Euler's formula](euler-formula.md) for derivations and applications.
 
 **What this means:** Complex exponentials are rotations in the complex plane. This unifies oscillations, waves, and quantum mechanics. See [quantum mechanics](../quantum-mechanics/quantum-mechanics.md) for applications.
 

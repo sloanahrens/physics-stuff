@@ -236,7 +236,7 @@ $$
 \boxed{e^{i\theta} = \cos\theta + i\sin\theta}
 $$
 
-where $i = \sqrt{-1}$. See [algebra primer](algebra-primer.md) for complex numbers.
+where $i = \sqrt{-1}$. See [algebra primer](algebra-primer.md) for complex numbers and [Euler's formula](euler-formula.md) for full derivations and applications.
 
 ### Consequences
 

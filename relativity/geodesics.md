@@ -1,6 +1,6 @@
 # Geodesics and Motion in Curved Spacetime
 
-Geodesics are the "straightest possible paths" in curved spacetime—the trajectories followed by freely falling objects. This document extends the [Schwarzschild](schwarzschild-solution.md) and [Kerr](kerr-metric.md) solutions to describe orbital motion, light bending, and other relativistic phenomena. It requires [calculus](../prerequisites/calculus-primer.md) (differential equations), builds on [tensor calculus](../math-foundations/tensor-calculus.md), and uses [natural units](../math-foundations/natural-units.md) where $G = c = 1$.
+Geodesics are the "straightest possible paths" in curved spacetime—the trajectories followed by freely falling objects. This document extends the [Schwarzschild](schwarzschild-solution.md) and [Kerr](kerr-metric.md) solutions to describe orbital motion, light bending, and other relativistic phenomena. It requires [calculus](../math-foundations/calculus-primer.md) (differential equations), builds on [tensor calculus](../math-foundations/tensor-calculus.md), and uses [natural units](../math-foundations/natural-units.md) where $G = c = 1$.
 
 ## What Is a Geodesic?
 

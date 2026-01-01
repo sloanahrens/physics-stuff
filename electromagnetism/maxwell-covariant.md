@@ -1,6 +1,6 @@
 # Maxwell's Equations in Covariant Form
 
-This document shows how the four Maxwell equations in three-dimensional space can be elegantly unified into a single tensor equation using the formalism of [special relativity](../relativity/special-relativity.md). We use [natural units](../math-foundations/natural-units.md) where $c = 1$ and the metric signature $(-,+,+,+)$. This requires familiarity with [vector calculus](../prerequisites/vector-calculus.md) (div, curl, gradient) and builds on [tensor calculus](../math-foundations/tensor-calculus.md). It connects to [differential forms](../math-foundations/differential-forms.md) for the most elegant formulation.
+This document shows how the four Maxwell equations in three-dimensional space can be elegantly unified into a single tensor equation using the formalism of [special relativity](../relativity/special-relativity.md). We use [natural units](../math-foundations/natural-units.md) where $c = 1$ and the metric signature $(-,+,+,+)$. This requires familiarity with [vector calculus](../math-foundations/vector-calculus.md) (div, curl, gradient) and builds on [tensor calculus](../math-foundations/tensor-calculus.md). It connects to [differential forms](../math-foundations/differential-forms.md) for the most elegant formulation.
 
 ## Maxwell's Equations in 3-Space
 

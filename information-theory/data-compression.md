@@ -2,7 +2,7 @@
 
 Data compression reduces the number of bits needed to represent information. Shannon's source coding theorem proves that entropy is the fundamental limit—you cannot compress below $H$ bits per symbol on average. This document explores the theory and algorithms that approach this limit.
 
-Prerequisites: [information theory](information-theory.md), [probability](../prerequisites/probability-statistics.md). For the physics connection, see [entropy](../thermodynamics/entropy.md).
+Prerequisites: [information theory](information-theory.md), [probability](../math-foundations/probability-statistics.md). For the physics connection, see [entropy](../thermodynamics/entropy.md).
 
 ## The Fundamental Limit
 

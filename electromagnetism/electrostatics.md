@@ -1,6 +1,6 @@
 # Electrostatics
 
-Electrostatics describes electric fields and potentials when charges are stationary. It's the foundation for understanding [Maxwell's equations](maxwell-equations.md) and is essential for atomic physics, chemistry, and electronics. This document uses [vector calculus](../prerequisites/vector-calculus.md), particularly the divergence theorem.
+Electrostatics describes electric fields and potentials when charges are stationary. It's the foundation for understanding [Maxwell's equations](maxwell-equations.md) and is essential for atomic physics, chemistry, and electronics. This document uses [vector calculus](../math-foundations/vector-calculus.md), particularly the divergence theorem.
 
 ## Coulomb's Law
 
