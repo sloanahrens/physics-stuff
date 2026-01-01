@@ -22,17 +22,14 @@ These documents use LaTeX for mathematical notation. To view rendered equations:
 
 Inline math: $E = mc^2$
 
-Block math:
+Block math (Schwarzschild metric):
+
 $$
 ds^2 = -\left(1 - \frac{2M}{r}\right) dt^2 + \left(1 - \frac{2M}{r}\right)^{-1} dr^2 + r^2 d\Omega^2
 $$
 
-Matrix:
+Matrix (Minkowski metric):
+
 $$
-g_{\mu\nu} = \begin{pmatrix}
--1 & 0 & 0 & 0 \\
-0 & 1 & 0 & 0 \\
-0 & 0 & r^2 & 0 \\
-0 & 0 & 0 & r^2\sin^2\theta
-\end{pmatrix}
+g_{\mu\nu} = \begin{pmatrix} -1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & r^2 & 0 \\ 0 & 0 & 0 & r^2\sin^2\theta \end{pmatrix}
 $$
