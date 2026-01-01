@@ -1,6 +1,6 @@
 # Quantum Mechanics: An Overview
 
-This document covers the core mathematical framework of quantum mechanics and how different interpretations address the measurement problem. We use natural units where $\hbar = 1$.
+This document covers the core mathematical framework of quantum mechanics and how different interpretations address the measurement problem. We use [natural units](natural-units.md) where $\hbar = 1$.
 
 ## The Wave Function
 

@@ -148,12 +148,70 @@ Some useful reference values:
 
 ## Other Natural Unit Systems
 
+### Quantum Mechanics: $\hbar = 1$
+
+In quantum mechanics, setting $\hbar = 1$ simplifies equations by removing factors of Planck's reduced constant:
+
+$$
+\hbar = 1.055 \times 10^{-34} \; \text{J} \cdot \text{s} = 1
+$$
+
+This equates units of **energy** and **frequency** (or equivalently, **momentum** and **inverse length**):
+
+$$
+\hbar = 1 \quad \Rightarrow \quad 1 \text{ Hz} = 1.055 \times 10^{-34} \text{ J} = 6.58 \times 10^{-16} \text{ eV}
+$$
+
+**Key simplifications with $\hbar = 1$:**
+
+| Equation | SI Units | Natural Units |
+|----------|----------|---------------|
+| de Broglie relation | $p = \frac{h}{\lambda} = \frac{2\pi\hbar}{\lambda}$ | $p = \frac{2\pi}{\lambda}$ |
+| Schrödinger equation | $i\hbar \frac{\partial \psi}{\partial t} = \hat{H}\psi$ | $i \frac{\partial \psi}{\partial t} = \hat{H}\psi$ |
+| Commutator | $[\hat{x}, \hat{p}] = i\hbar$ | $[\hat{x}, \hat{p}] = i$ |
+| Uncertainty principle | $\Delta x \cdot \Delta p \geq \frac{\hbar}{2}$ | $\Delta x \cdot \Delta p \geq \frac{1}{2}$ |
+| Momentum operator | $\hat{p} = -i\hbar \frac{\partial}{\partial x}$ | $\hat{p} = -i \frac{\partial}{\partial x}$ |
+
+**Converting back to SI units:**
+
+| To convert from $\hbar = 1$ | Multiply by |
+|-----------------------------|-------------|
+| Momentum $\to$ SI | $\hbar$ |
+| Angular momentum $\to$ SI | $\hbar$ |
+| Energy (from frequency) $\to$ SI | $\hbar$ |
+| Inverse length $\to$ momentum | $\hbar$ |
+
+**Example:** The ground state energy of hydrogen
+
+Natural units ($\hbar = 1$, but keeping $m_e$, $e$, and $c$):
+$$
+E_1 = -\frac{m_e \alpha^2}{2}
+$$
+
+where $\alpha = e^2/(4\pi\epsilon_0 \hbar c) \approx 1/137$ is the fine structure constant.
+
+In SI units:
+$$
+E_1 = -\frac{m_e e^4}{2(4\pi\epsilon_0)^2 \hbar^2} = -13.6 \text{ eV}
+$$
+
 ### Particle Physics: $\hbar = c = 1$
 
-Adds Planck's constant, making energy the fundamental dimension:
-- Mass in GeV
-- Length in GeV$^{-1}$
-- Time in GeV$^{-1}$
+Setting both $\hbar = 1$ and $c = 1$ makes energy the fundamental dimension:
+- Mass in GeV (since $E = mc^2 \to E = m$)
+- Length in GeV$^{-1}$ (since $\lambda = \hbar/p \to \lambda = 1/p$)
+- Time in GeV$^{-1}$ (since $t = \hbar/E \to t = 1/E$)
+
+**Useful conversion factors:**
+
+$$
+\hbar c = 197.3 \; \text{MeV} \cdot \text{fm}
+$$
+
+This means:
+- $1 \text{ GeV}^{-1} = 0.197 \text{ fm} = 1.97 \times 10^{-16} \text{ m}$ (length)
+- $1 \text{ GeV}^{-1} = 6.58 \times 10^{-25} \text{ s}$ (time)
+- $1 \text{ GeV} = 1.78 \times 10^{-27} \text{ kg}$ (mass)
 
 ### Planck Units: $\hbar = c = G = 1$
 
