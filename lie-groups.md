@@ -1,6 +1,6 @@
 # Lie Groups and Lie Algebras
 
-Lie groups are continuous symmetry groups that appear throughout physics—rotations, Lorentz transformations, gauge symmetries. Their infinitesimal structure, encoded in Lie algebras, connects to [Hamiltonian mechanics](hamiltonian-mechanics.md) via Poisson brackets and to [quantum mechanics](quantum-mechanics.md) via commutators.
+Lie groups are continuous symmetry groups that appear throughout physics—rotations, Lorentz transformations, gauge symmetries. Their infinitesimal structure, encoded in Lie algebras, connects to [Hamiltonian mechanics](hamiltonian-mechanics.md) via Poisson brackets and to [quantum mechanics](quantum-mechanics.md) via commutators. The Lorentz group underlies [special relativity](special-relativity.md); SU(2) describes [spin angular momentum](spin-angular-momentum.md); spinor representations appear in the [Dirac equation](dirac-equation.md).
 
 ## What Is a Lie Group?
 

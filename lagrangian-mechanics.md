@@ -1,6 +1,6 @@
 # Lagrangian Mechanics
 
-Lagrangian mechanics reformulates Newton's laws using energy rather than forces. It's more powerful for constrained systems, reveals deep connections to symmetry, and leads naturally to [Hamiltonian mechanics](hamiltonian-mechanics.md) and [quantum mechanics](quantum-mechanics.md).
+Lagrangian mechanics reformulates Newton's laws using energy rather than forces. It's more powerful for constrained systems, reveals deep connections to symmetry, and leads naturally to [Hamiltonian mechanics](hamiltonian-mechanics.md), [quantum mechanics](quantum-mechanics.md), and [path integrals](path-integrals.md). In general relativity, the same principle gives [geodesics](geodesics.md)—the paths of freely falling objects.
 
 ## The Principle of Least Action
 

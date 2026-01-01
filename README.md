@@ -1,148 +1,103 @@
 # Math Stuff
 
-Mathematical physics notes with embedded LaTeX.
+Mathematical physics notes with LaTeX. 21 interlinked documents covering foundations through advanced topics.
 
 ## Documents
 
-### Mathematical Foundations
-
+### Foundations
 | Document | Topic |
 |----------|-------|
-| [Tensor Calculus](tensor-calculus.md) | Indices, metrics, covariant derivatives, curvature |
-| [Differential Forms](differential-forms.md) | Exterior calculus, wedge products, Stokes' theorem |
-| [Lie Groups & Algebras](lie-groups.md) | Continuous symmetries, representations, structure constants |
+| [Natural Units](natural-units.md) | Setting $G = c = \hbar = 1$ |
+| [Tensor Calculus](tensor-calculus.md) | Indices, metrics, covariant derivatives |
+| [Differential Forms](differential-forms.md) | Exterior calculus, Stokes' theorem |
+| [Lie Groups](lie-groups.md) | Symmetries, representations, algebras |
 
 ### Classical Mechanics
-
 | Document | Topic |
 |----------|-------|
-| [Lagrangian Mechanics](lagrangian-mechanics.md) | Principle of least action, Euler-Lagrange equations, Noether's theorem |
-| [Hamiltonian Mechanics](hamiltonian-mechanics.md) | Phase space, Poisson brackets, symplectic structure |
+| [Lagrangian Mechanics](lagrangian-mechanics.md) | Action principle, Euler-Lagrange, Noether |
+| [Hamiltonian Mechanics](hamiltonian-mechanics.md) | Phase space, Poisson brackets |
 
-### Special Relativity
-
+### Relativity
 | Document | Topic |
 |----------|-------|
-| [Special Relativity](special-relativity.md) | Lorentz transformations, 4-vectors, spacetime intervals |
-
-### General Relativity & Cosmology
-
-| Document | Topic |
-|----------|-------|
-| [Natural Units](natural-units.md) | Using and converting $G = c = 1$ and $\hbar = 1$ units |
-| [Schwarzschild Solution](schwarzschild-solution.md) | Vacuum solution for non-rotating black holes |
-| [Kerr Metric](kerr-metric.md) | Rotating black hole spacetime geometry |
-| [Geodesics](geodesics.md) | Motion in curved spacetime, orbits, light bending |
-| [Gravitational Waves](gravitational-waves.md) | Linearized gravity, polarizations, LIGO detection |
-| [Black Hole Thermodynamics](black-hole-thermodynamics.md) | Hawking radiation, entropy, information paradox |
-| [Friedmann Equations](friedmann-equations.md) | Cosmology, expansion, dark energy |
+| [Special Relativity](special-relativity.md) | Lorentz transformations, 4-vectors |
+| [Schwarzschild Solution](schwarzschild-solution.md) | Non-rotating black holes |
+| [Kerr Metric](kerr-metric.md) | Rotating black holes |
+| [Geodesics](geodesics.md) | Orbits, light bending, ISCO |
+| [Gravitational Waves](gravitational-waves.md) | Linearized gravity, LIGO |
+| [Black Hole Thermodynamics](black-hole-thermodynamics.md) | Hawking radiation, entropy |
+| [Friedmann Equations](friedmann-equations.md) | Cosmology, dark energy |
 
 ### Electromagnetism
-
 | Document | Topic |
 |----------|-------|
-| [Maxwell Covariant](maxwell-covariant.md) | Maxwell's equations in relativistic tensor form |
+| [Maxwell Covariant](maxwell-covariant.md) | Relativistic tensor formulation |
 
 ### Quantum Mechanics
-
 | Document | Topic |
 |----------|-------|
-| [Quantum Mechanics](quantum-mechanics.md) | Wave functions, uncertainty, entanglement (with explanations) |
-| [Quantum Math](quantum-math.md) | Concise version with equations only |
-| [Spin & Angular Momentum](spin-angular-momentum.md) | Orbital and spin angular momentum, Clebsch-Gordan coefficients |
-| [Hydrogen Atom](hydrogen-atom.md) | Exact solution, quantum numbers, fine structure |
-| [Dirac Equation](dirac-equation.md) | Relativistic quantum mechanics, spinors, antimatter |
-| [Path Integrals](path-integrals.md) | Feynman's formulation, propagators, stationary phase |
+| [Quantum Mechanics](quantum-mechanics.md) | Wave functions, measurement (extended) |
+| [Quantum Math](quantum-math.md) | Equations only (concise) |
+| [Spin & Angular Momentum](spin-angular-momentum.md) | Pauli matrices, Clebsch-Gordan |
+| [Hydrogen Atom](hydrogen-atom.md) | Exact solution, fine structure |
+| [Dirac Equation](dirac-equation.md) | Relativistic QM, spinors, antimatter |
+| [Path Integrals](path-integrals.md) | Feynman formulation |
 
-### Statistical Mechanics
-
+### Thermodynamics
 | Document | Topic |
 |----------|-------|
-| [Statistical Mechanics](statistical-mechanics.md) | Ensembles, partition functions, quantum statistics |
+| [Statistical Mechanics](statistical-mechanics.md) | Ensembles, Fermi-Dirac, Bose-Einstein |
 
-## Document Relationships
+## How Documents Connect
 
 ```
-                    ┌─────────────────────────────────────────────────────────────────┐
-                    │                    MATHEMATICAL FOUNDATIONS                      │
-                    │                                                                  │
-                    │  Tensor Calculus ─────► Differential Forms                       │
-                    │        │                      │                                  │
-                    │        ▼                      ▼                                  │
-                    │  Lie Groups ◄───────── Symmetries ─────► Gauge Theories          │
-                    └───┬───────────────────────────────────────────────────────────────┘
-                        │
-        ┌───────────────┼───────────────────────────────────────┐
-        ▼               ▼                                       ▼
-┌───────────────┐ ┌─────────────────────────────────────┐ ┌─────────────────┐
-│   CLASSICAL   │ │         SPECIAL RELATIVITY          │ │    QUANTUM      │
-│               │ │                                     │ │   MECHANICS     │
-│ Lagrangian    │ │  4-vectors, Lorentz transformations │ │                 │
-│     │         │ │              │                      │ │ Wave functions  │
-│     ▼         │ │              │                      │ │      │          │
-│ Hamiltonian ──┼─┼──────────────┼──────────────────────┼─┤      ▼          │
-│     │         │ │              │                      │ │ Path Integrals  │
-│     │         │ │              ▼                      │ │      │          │
-│     ▼         │ │       ┌──────┴──────┐               │ │      ▼          │
-│ Poisson ≈─────┼─┼───────┤ Commutators ├───────────────┼─► Spin/Angular   │
-│ Brackets      │ │       └─────────────┘               │ │ Momentum        │
-└───────────────┘ │                                     │ │      │          │
-                  │              │                      │ │      ▼          │
-                  └──────────────┼──────────────────────┘ │ Hydrogen Atom   │
-                                 │                        │      │          │
-                                 ▼                        │      ▼          │
-                    ┌────────────────────────┐            │ Dirac Equation  │
-                    │   GENERAL RELATIVITY   │            └────────┬────────┘
-                    │                        │                     │
-                    │ Schwarzschild ◄── Kerr │                     │
-                    │      │            │    │                     │
-                    │      ▼            ▼    │                     │
-                    │    Geodesics          │                     │
-                    │      │                │                     │
-                    │      ▼                │                     ▼
-                    │ Gravitational Waves   │            ┌─────────────────┐
-                    │                       │            │   STATISTICAL   │
-                    │ Black Hole ◄──────────┼────────────│   MECHANICS     │
-                    │ Thermodynamics        │            │                 │
-                    │      │                │            │  Quantum Stats  │
-                    │      ▼                │            │  (Fermi/Bose)   │
-                    │ Friedmann Equations   │            └─────────────────┘
-                    │ (Cosmology)           │
-                    └────────────────────────┘
-
-Maxwell Covariant: Differential Forms + Special Relativity + Tensor Calculus
+MATH FOUNDATIONS                           PHYSICS
+─────────────────                          ───────
+Tensor Calculus ─────┬──────────────────► Special Relativity
+        │            │                           │
+        ▼            │                           ▼
+Differential Forms   │    Lagrangian ──► Hamiltonian ──► Quantum Mechanics
+        │            │         │              │                  │
+        ▼            │         ▼              ▼                  ▼
+   Lie Groups ───────┴──► Path Integrals ◄── Commutators    Spin/Angular
+        │                      │                              Momentum
+        │                      ▼                                 │
+        │              Statistical Mechanics ◄───────────────────┤
+        │                      │                                 ▼
+        ▼                      ▼                           Hydrogen Atom
+Maxwell Covariant    Black Hole Thermodynamics                   │
+                               ▲                                 ▼
+                               │                           Dirac Equation
+                      ┌────────┴────────┐
+                      │                 │
+              Schwarzschild ◄─────► Kerr
+                      │                 │
+                      └────────┬────────┘
+                               │
+                           Geodesics
+                               │
+                    ┌──────────┼──────────┐
+                    ▼          ▼          ▼
+          Gravitational    Friedmann   Light Bending
+              Waves        Equations
 ```
 
-## Prerequisites
+## Reading Order
 
-Suggested reading order for newcomers:
+**Newcomers:** Start with [Natural Units](natural-units.md), then choose a track:
 
-1. **Start here:** [Natural Units](natural-units.md) → [Special Relativity](special-relativity.md)
-2. **Classical foundations:** [Lagrangian](lagrangian-mechanics.md) → [Hamiltonian](hamiltonian-mechanics.md)
-3. **Math tools:** [Tensor Calculus](tensor-calculus.md) → [Lie Groups](lie-groups.md)
-4. **Quantum track:** [Quantum Mechanics](quantum-mechanics.md) → [Spin](spin-angular-momentum.md) → [Hydrogen](hydrogen-atom.md) → [Dirac](dirac-equation.md)
-5. **GR track:** [Schwarzschild](schwarzschild-solution.md) → [Geodesics](geodesics.md) → [Kerr](kerr-metric.md) → [Gravitational Waves](gravitational-waves.md)
-6. **Advanced:** [Path Integrals](path-integrals.md), [Black Hole Thermodynamics](black-hole-thermodynamics.md), [Friedmann Equations](friedmann-equations.md)
+| Track | Path |
+|-------|------|
+| **Quantum** | [Quantum Mechanics](quantum-mechanics.md) → [Spin](spin-angular-momentum.md) → [Hydrogen](hydrogen-atom.md) → [Dirac](dirac-equation.md) |
+| **Relativity** | [Special Relativity](special-relativity.md) → [Schwarzschild](schwarzschild-solution.md) → [Geodesics](geodesics.md) → [Kerr](kerr-metric.md) |
+| **Classical** | [Lagrangian](lagrangian-mechanics.md) → [Hamiltonian](hamiltonian-mechanics.md) → [Path Integrals](path-integrals.md) |
+| **Math** | [Tensor Calculus](tensor-calculus.md) → [Differential Forms](differential-forms.md) → [Lie Groups](lie-groups.md) |
 
-## LaTeX Rendering
+**Advanced topics:** [Gravitational Waves](gravitational-waves.md), [Black Hole Thermodynamics](black-hole-thermodynamics.md), [Friedmann Equations](friedmann-equations.md), [Statistical Mechanics](statistical-mechanics.md)
 
-These documents use LaTeX for mathematical notation. To view rendered equations:
+## Rendering
 
-- **VS Code**: Use Markdown preview (`Cmd+Shift+V`) with a math-supporting extension
-- **GitHub**: Renders LaTeX natively in markdown files
+GitHub renders LaTeX natively. For local viewing, use VS Code with a math-preview extension.
 
-### Examples
-
-Inline math: $E = mc^2$
-
-Block math (Schwarzschild metric):
-
-$$
-ds^2 = -\left(1 - \frac{2M}{r}\right) dt^2 + \left(1 - \frac{2M}{r}\right)^{-1} dr^2 + r^2 d\Omega^2
-$$
-
-Matrix (Minkowski metric):
-
-```math
-g_{\mu\nu} = \begin{pmatrix} -1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & r^2 & 0 \\ 0 & 0 & 0 & r^2\sin^2\theta \end{pmatrix}
-```
+Example: $ds^2 = -\left(1 - \frac{2M}{r}\right) dt^2 + \left(1 - \frac{2M}{r}\right)^{-1} dr^2 + r^2 d\Omega^2$

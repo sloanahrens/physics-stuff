@@ -1,6 +1,6 @@
 # Tensor Calculus: A Primer
 
-This document introduces tensors—the mathematical objects that describe physical quantities in a coordinate-independent way. Tensors are essential for [differential forms](differential-forms.md), [gravitational waves](gravitational-waves.md), and general relativity ([Schwarzschild](schwarzschild-solution.md), [Kerr](kerr-metric.md)).
+This document introduces tensors—the mathematical objects that describe physical quantities in a coordinate-independent way. Tensors are essential for [differential forms](differential-forms.md), [special relativity](special-relativity.md), [gravitational waves](gravitational-waves.md), [geodesics](geodesics.md), and general relativity ([Schwarzschild](schwarzschild-solution.md), [Kerr](kerr-metric.md)).
 
 ## Why Tensors?
 
