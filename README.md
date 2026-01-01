@@ -30,6 +30,6 @@ $$
 
 Matrix (Minkowski metric):
 
-$$
+```math
 g_{\mu\nu} = \begin{pmatrix} -1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & r^2 & 0 \\ 0 & 0 & 0 & r^2\sin^2\theta \end{pmatrix}
-$$
+```
