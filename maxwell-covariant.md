@@ -200,12 +200,12 @@ $$
 
 ## Summary: From Four Equations to Two
 
-| 3D Maxwell Equations | Covariant Form |
-|---------------------|----------------|
-| $\nabla \cdot \mathbf{E} = \rho$ | $\partial_\mu F^{\mu\nu} = J^\nu$ |
-| $\nabla \times \mathbf{B} = \mathbf{J} + \frac{\partial \mathbf{E}}{\partial t}$ | (inhomogeneous) |
-| $\nabla \cdot \mathbf{B} = 0$ | $\partial_\mu \tilde{F}^{\mu\nu} = 0$ |
-| $\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}$ | (homogeneous) |
+| 3D Maxwell Equations | Description | Covariant Form |
+|---------------------|-------------|----------------|
+| $\nabla \cdot \mathbf{E} = \rho$ | Electric charges produce electric field lines | $\partial_\mu F^{\mu\nu} = J^\nu$ |
+| $\nabla \times \mathbf{B} = \mathbf{J} + \frac{\partial \mathbf{E}}{\partial t}$ | Currents and changing electric fields produce magnetic fields | (inhomogeneous) |
+| $\nabla \cdot \mathbf{B} = 0$ | No magnetic monopoles exist; magnetic field lines always close | $\partial_\mu \tilde{F}^{\mu\nu} = 0$ |
+| $\nabla \times \mathbf{E} = -\frac{\partial \mathbf{B}}{\partial t}$ | Changing magnetic fields induce electric fields | (homogeneous) |
 
 ## The Single Equation Form
 
