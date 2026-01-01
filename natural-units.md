@@ -1,6 +1,6 @@
 # Natural Units: Setting $G = c = 1$
 
-In relativistic physics, equations become much cleaner when we use **natural units** where the speed of light $c$ and Newton's gravitational constant $G$ are set to unity. This document explains how this works and how to convert between natural and SI units.
+In relativistic physics, equations become much cleaner when we use **natural units** where the speed of light $c$ and Newton's gravitational constant $G$ are set to unity. This document explains how this works and how to convert between natural and SI units. These conventions are used throughout the documents on [general relativity](schwarzschild-solution.md), [gravitational waves](gravitational-waves.md), and [quantum mechanics](quantum-mechanics.md).
 
 ## Why Use Natural Units?
 

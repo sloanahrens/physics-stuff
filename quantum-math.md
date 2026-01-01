@@ -1,6 +1,6 @@
 # Quantum Mechanics: An Overview
 
-This document covers the core mathematical framework of quantum mechanics and how different interpretations address the measurement problem. We use [natural units](natural-units.md) where $\hbar = 1$.
+This document covers the core mathematical framework of quantum mechanics and how different interpretations address the measurement problem. We use [natural units](natural-units.md) where $\hbar = 1$. The formalism connects deeply to [Hamiltonian mechanics](hamiltonian-mechanics.md) (Poisson brackets become commutators) and [Lie groups](lie-groups.md) (symmetries determine particle types).
 
 ## The Wave Function
 
