@@ -1,6 +1,6 @@
 # Special Relativity
 
-Special relativity describes physics in inertial (non-accelerating) reference frames, where the speed of light is constant for all observers. This document provides the foundation for [the Dirac equation](dirac-equation.md), [covariant electromagnetism](maxwell-covariant.md), and the transition to general relativity ([Schwarzschild](schwarzschild-solution.md), [Kerr](kerr-metric.md)).
+Special relativity describes physics in inertial (non-accelerating) reference frames, where the speed of light is constant for all observers. It requires [calculus](calculus-primer.md) and basic [linear algebra](linear-algebra.md). This document provides the foundation for [the Dirac equation](dirac-equation.md), [covariant electromagnetism](maxwell-covariant.md), and the transition to general relativity ([Schwarzschild](schwarzschild-solution.md), [Kerr](kerr-metric.md)).
 
 ## The Postulates
 

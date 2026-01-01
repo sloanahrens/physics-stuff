@@ -1,10 +1,18 @@
 # Math Stuff
 
-Mathematical physics notes with LaTeX. 21 interlinked documents covering foundations through advanced topics.
+Mathematical physics notes with LaTeX. 25 interlinked documents covering prerequisites through advanced topics.
 
 ## Documents
 
-### Foundations
+### Prerequisites
+| Document | Topic |
+|----------|-------|
+| [Calculus Primer](calculus-primer.md) | Derivatives, integrals, partial derivatives, Taylor series |
+| [Vector Calculus](vector-calculus.md) | Gradient, divergence, curl, Laplacian, integral theorems |
+| [Linear Algebra](linear-algebra.md) | Vectors, matrices, eigenvalues, inner products |
+| [Probability & Statistics](probability-statistics.md) | Distributions, expectation values, central limit theorem |
+
+### Mathematical Foundations
 | Document | Topic |
 |----------|-------|
 | [Natural Units](natural-units.md) | Setting $G = c = \hbar = 1$ |
@@ -52,40 +60,46 @@ Mathematical physics notes with LaTeX. 21 interlinked documents covering foundat
 ## How Documents Connect
 
 ```
-MATH FOUNDATIONS                           PHYSICS
-─────────────────                          ───────
-Tensor Calculus ─────┬──────────────────► Special Relativity
-        │            │                           │
-        ▼            │                           ▼
-Differential Forms   │    Lagrangian ──► Hamiltonian ──► Quantum Mechanics
-        │            │         │              │                  │
-        ▼            │         ▼              ▼                  ▼
-   Lie Groups ───────┴──► Path Integrals ◄── Commutators    Spin/Angular
-        │                      │                              Momentum
-        │                      ▼                                 │
-        │              Statistical Mechanics ◄───────────────────┤
-        │                      │                                 ▼
-        ▼                      ▼                           Hydrogen Atom
-Maxwell Covariant    Black Hole Thermodynamics                   │
-                               ▲                                 ▼
-                               │                           Dirac Equation
-                      ┌────────┴────────┐
-                      │                 │
-              Schwarzschild ◄─────► Kerr
-                      │                 │
-                      └────────┬────────┘
-                               │
-                           Geodesics
-                               │
-                    ┌──────────┼──────────┐
-                    ▼          ▼          ▼
-          Gravitational    Friedmann   Light Bending
-              Waves        Equations
+PREREQUISITES                    MATH FOUNDATIONS                    PHYSICS
+─────────────                    ────────────────                    ───────
+
+Calculus Primer ──────┬──────► Tensor Calculus ─────┬──────────────► Special Relativity
+        │             │              │              │                       │
+        ▼             │              ▼              │                       ▼
+Vector Calculus ──────┤      Differential Forms     │  Lagrangian ──► Hamiltonian ──► Quantum Mechanics
+        │             │              │              │       │              │                  │
+        ▼             │              ▼              │       ▼              ▼                  ▼
+Linear Algebra ───────┴───────► Lie Groups ─────────┴► Path Integrals ◄── Commutators    Spin/Angular
+        │                            │                      │                              Momentum
+        ▼                            │                      ▼                                 │
+Probability ─────────────────────────┴────────────► Statistical Mechanics ◄───────────────────┤
+                                                           │                                 ▼
+                                                           ▼                           Hydrogen Atom
+                                    Maxwell Covariant    Black Hole Thermodynamics           │
+                                                                   ▲                         ▼
+                                                                   │                   Dirac Equation
+                                                          ┌────────┴────────┐
+                                                          │                 │
+                                                  Schwarzschild ◄─────► Kerr
+                                                          │                 │
+                                                          └────────┬────────┘
+                                                                   │
+                                                               Geodesics
+                                                                   │
+                                                        ┌──────────┼──────────┐
+                                                        ▼          ▼          ▼
+                                              Gravitational    Friedmann   Light Bending
+                                                  Waves        Equations
 ```
 
 ## Reading Order
 
-**Newcomers:** Start with [Natural Units](natural-units.md), then choose a track:
+**New to physics math?** Start with the prerequisites:
+- [Calculus Primer](calculus-primer.md) → [Vector Calculus](vector-calculus.md) for differential equations and field theory
+- [Linear Algebra](linear-algebra.md) for quantum mechanics and tensors
+- [Probability & Statistics](probability-statistics.md) for quantum mechanics and statistical mechanics
+
+**Ready for physics:** Start with [Natural Units](natural-units.md), then choose a track:
 
 | Track | Path |
 |-------|------|

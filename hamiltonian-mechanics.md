@@ -1,6 +1,6 @@
 # Hamiltonian Mechanics
 
-Hamiltonian mechanics reformulates [Lagrangian mechanics](lagrangian-mechanics.md) using position and momentum as independent variables. This framework is essential for [quantum mechanics](quantum-mechanics.md), statistical mechanics, and reveals deep geometric structure through [Lie groups](lie-groups.md) and symplectic geometry.
+Hamiltonian mechanics reformulates [Lagrangian mechanics](lagrangian-mechanics.md) using position and momentum as independent variables. This requires [calculus](calculus-primer.md), particularly partial derivatives and the Legendre transformation. The framework is essential for [quantum mechanics](quantum-mechanics.md), statistical mechanics, and reveals deep geometric structure through [Lie groups](lie-groups.md) and symplectic geometry.
 
 ## From Lagrangian to Hamiltonian
 

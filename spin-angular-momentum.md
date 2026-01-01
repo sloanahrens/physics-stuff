@@ -1,6 +1,6 @@
 # Spin and Angular Momentum
 
-Angular momentum in quantum mechanics comes in two varieties: orbital (from motion) and spin (intrinsic). This document develops both, their addition, and the deep connection to [Lie groups](lie-groups.md). It provides essential background for the [Dirac equation](dirac-equation.md) and [hydrogen atom](hydrogen-atom.md).
+Angular momentum in quantum mechanics comes in two varieties: orbital (from motion) and spin (intrinsic). This document develops both, their addition, and the deep connection to [Lie groups](lie-groups.md). It requires [linear algebra](linear-algebra.md) (matrices, eigenvalues, commutators) and [vector calculus](vector-calculus.md) (cross product, spherical coordinates). It provides essential background for the [Dirac equation](dirac-equation.md) and [hydrogen atom](hydrogen-atom.md).
 
 ## Orbital Angular Momentum
 

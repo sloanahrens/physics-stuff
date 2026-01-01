@@ -66,7 +66,7 @@ $$
 
 **Thermodynamic analog:** It is impossible to reach absolute zero temperature.
 
-**What this means:** You cannot create an extremal black hole ($\kappa = 0$) starting from a non-extremal one. The extremal limit, where $M = |Q|$ or $M = |J|/M$, is unattainable.
+**What this means:** You cannot create an extremal black hole ($\kappa = 0$) starting from a non-extremal one. The extremal limit, where $M = |Q|$ or $|J| = M^2$, is unattainable.
 
 ## Bekenstein-Hawking Entropy
 
